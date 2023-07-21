@@ -42,7 +42,7 @@ console.log(true + 10); // jadi 11 dikarenakan true bernilai 1, false bernilai 0
 
 //membaca error 
 //error adalah hal bagus dikarenakan mempermudah dalam debugging (mencari bug), apabila program memiliki bug namun tidak memiliki
-//pemberitahuan error, programer langsung ketar ketir 
+//pemberitahuan error, programer langsung ketar ketir
 
 //contoh error 
 const hewan = jerapah; 
@@ -50,5 +50,5 @@ console.log(hewan);
 hewan = 'buaya'; //jerapah is not defined dikarenakan variabel const itu adalah konstanta dan tidak dapat diubah 
 
 //kata sepuh discord = ngoding adalah habit 
-let ngoding = habit; 
+let ngoding = habit;
 console.log(habit); 
