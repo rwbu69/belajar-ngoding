@@ -19,56 +19,53 @@
 //code switch case kamu disini
 
 
-let tanggal = 2;
+let tanggal = 1;
 let bulan = 5;
-let tahun = 2001;
+let tahun = 2000;
 
-switch(true){
-    case((tanggal >=1) && (tanggal <=31)):
-        switch(true){
-        case((tahun >= 1900) && (tahun <=2200)):
-        }}
-        switch(bulan){ 
-            case 1 :
-                bulan = "januari";
-                break;  
-            case 2 :
-                bulan = "februari"; 
-                break;
-            case 3 : 
-                bulan = "maret";
-                break;
-            case 4 : 
-                bulan = "april";
-                break;
-            case 5 : 
-                bulan = "mei";
-                break;
-            case 6 : 
-                bulan = "juni";
-                break;
-            case 7 :
-                bulan = "juli";
-                break;
-            case 8 :
-                bulan = "agustus";
-                break;
-            case 9 :
-                bulan = "september";
-                break;
-            case 10 : 
-                bulan = "oktober";
-                break;
-            case 11 : 
-                bulan = "november";
-                break;
-            case 12 :
-                bulan = "desember"; 
-                break;
-            default:
+            switch(bulan){ 
+                case 1 :
+                    bulan = "januari";
+                    break;  
+                case 2 :
+                    bulan = "februari"; 
+                    break;
+                case 3 : 
+                    bulan = "maret";
+                    break;
+                case 4 : 
+                    bulan = "april";
+                    break;
+                case 5 : 
+                    bulan = "mei";
+                    break;
+                case 6 : 
+                    bulan = "juni";
+                    break;
+                case 7 :
+                    bulan = "juli";
+                    break;
+                case 8 :
+                    bulan = "agustus";
+                    break;
+                case 9 :
+                    bulan = "september";
+                    break;
+                case 10 : 
+                    bulan = "oktober";
+                    break;
+                case 11 : 
+                    bulan = "november";
+                    break;
+                case 12 :
+                    bulan = "desember"; 
+                    break;
+            }if (tanggal >= 1 && tanggal <= 31){
+                console.log(`${tanggal} ${bulan} ${tahun}`);
+            }if (tahun >= 1900 && tahun <= 2200){
+                console.log(`${tanggal} ${bulan} ${tahun}`);
+            }else{
                 console.log("null");
-    }     
-
-    kalender = (`${tanggal} ${bulan} ${tahun}`);
+            }
         
-console.log(kalender);
+
