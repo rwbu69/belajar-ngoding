@@ -19,9 +19,9 @@
 //code switch case kamu disini
 
 
-let tanggal = 0;
-let bulan = 5;
-let tahun = 1;
+let tanggal = 1;
+let bulan = 12;
+let tahun = 2005;
 
             switch(bulan){ 
                 case 1 :
@@ -61,9 +61,7 @@ let tahun = 1;
                     bulan = "desember"; 
                     break;
 
-            }if (tanggal >= 1 && tanggal <= 31){
-                console.log(`${tanggal} ${bulan} ${tahun}`);
-            }else if(tahun >= 1900 && tahun <= 2200){  
+            }if ((tahun >=1900 && tahun <=2200)&&(tanggal >= 1 && tanggal <= 31)){
                 console.log(`${tanggal} ${bulan} ${tahun}`);
             }else{
                 console.log("null");
