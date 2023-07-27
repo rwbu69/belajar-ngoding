@@ -1,3 +1,4 @@
-node_modules
+/node_modules
 coba.js
 coba1.js
+
