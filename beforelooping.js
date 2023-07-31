@@ -77,3 +77,5 @@ let kataSatu = word4.substring(0, 3);
 let kataSatuLength = kataSatu.length;
 
 console.log('First Word: ' + kataSatu + ', with length: ' + kataSatuLength);
+
+//adsfsdfasf
