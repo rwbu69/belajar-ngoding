@@ -73,9 +73,20 @@ console.log(' ');
 
 let word4 = 'wow JavaScript is so cool';
 let kataSatu = word4.substring(0, 3);
+let kataDua = word4.substring(4, 14);
+let kataTiga = word4.substring(15, 17);
+let kataEmpat = word4.substring(18, 20);
+let kataLima = word4.substring(21, 25); 
 
 let kataSatuLength = kataSatu.length;
+let kataDuaLength = kataDua.length;
+let kataTigaLength = kataTiga.length;
+let kataEmpatLength = kataEmpat.length; 
+let kataLimaLength = kataLima.length; 
 
 console.log('First Word: ' + kataSatu + ', with length: ' + kataSatuLength);
+console.log('Sec Word: ' + kataDua + ', with length: ' + kataDuaLength);
+console.log('Tird Word: ' + kataTiga + ', with length: ' + kataTigaLength);
+console.log('Forth Word: ' + kataEmpat + ', with length: ' + kataEmpatLength);
+console.log('Fif Word: ' + kataLima + ', with length: ' + kataLimaLength);
 
-//adsfsdfasf
