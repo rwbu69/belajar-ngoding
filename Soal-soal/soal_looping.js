@@ -70,31 +70,37 @@
 // dan kelipatan 10 dengan pertambahan 9, tuliskan:
 // "3 kelipatan 3"dan seterusnya.
 
-// let kelipatanDua = 0;
-// let kelipatanLima = 0;
-// let kelipatanSembilan = 0;
+let kelipatanDua = 0;
+let kelipatanLima = 0;
+let kelipatanSembilan = 0;
 
-// for(let i = 2; i <= 100; i+=2){
-//     if(i % 2 == 0){
-//         console.log(`${i} adalah kelipatan 2`);
-//         kelipatanDua++;
-//     }else{}
+for (let i = 0; i <= 100; i += 2) {
+  if (i == 0) {
+  } else if (i % 2 == 0) {
+    console.log(`${i} adalah kelipatan 2`);
+    kelipatanDua++;
+  } else {
+  }
+}
+console.log("jumlah total kelipatan 2 ada", kelipatanDua);
 
-// }
-// console.log('jumlah total kelipatan 2 ada',kelipatanDua);
+for (let j = 0; j <= 100; j += 5) {
+    if (j == 0) {
+    } else if (j % 5 == 0) {
+      console.log(`${j} adalah kelipatan 5`);
+      kelipatanLima++;
+    } else {
+    }
+  }
+  console.log("jumlah total kelipatan 5 ada", kelipatanLima);
 
-// for(let j = 5; j <= 100; j+=5){
-//     if(j % 5 == 0){
-//         console.log(`${j} adalah kelipatan 5`);
-//         kelipatanLima++;
-//     }else{}
-// }
-// console.log('jumlah total kelipatan 5 ada',kelipatanLima);
+  for (let k = 0; k <= 100; k += 9) {
+    if (k == 0) {
+    } else if (k % 9 == 0) {
+      console.log(`${k} adalah kelipatan 9`);
+      kelipatanSembilan++;
+    } else {
+    }
+  }
+  console.log("jumlah total kelipatan 9 ada", kelipatanSembilan);
 
-// for(let k = 9; k <= 100; k+=9){
-//     if(k % 9 == 0){
-//         console.log(`${k} adalah kelipatan 9`);
-//         kelipatanSembilan++;
-//     }else{}
-// }
-// console.log('jumlah total kelipatan 9 ada',kelipatanSembilan)
