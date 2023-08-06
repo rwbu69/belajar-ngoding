@@ -1,5 +1,5 @@
-//while()
-//for()
+// while()
+// for()
 
 // let i = 0;
 
@@ -57,6 +57,6 @@ for (let i = 0; i < 5; i++) {
 }
 console.log("rampung");
 
-// looping akan bertemu dengan method length 
-// looping itu agar membuat code jadi lebih pendek 
-// looping membuat proses menjadi dinamis 
+// looping akan bertemu dengan method length
+// looping itu agar membuat code jadi lebih pendek
+// looping membuat proses menjadi dinamis
