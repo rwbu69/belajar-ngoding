@@ -11,6 +11,22 @@ let input = [
     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"] 
 ]
 
+function dataHandling(input){
+    for(let i = 0; i < input.length; i++){
+        let nomor = input[i][0];
+        let nama = input[i][1];
+        let tl = input[i][2];
+        let tempat = input[i][3];
+        let hobi = input[i][4];
+        console.log(`Nomor ID : ${nomor}`);
+        console.log(`Nama Lengkap : ${nama}`);
+        console.log(`TTL : ${tl} ${tempat}`);
+        console.log(`Hobi : ${hobi}`);
+        console.log(" ");
+      } 
+}  
+
+dataHandling(input);
 
 /*
 output yang diharapkan
