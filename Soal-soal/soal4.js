@@ -4,8 +4,10 @@
 
 let input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
 
-function dataHandling(input) {
+function dataHandling2(input) {
+    for(let i = 0; i < input.length; i++){
 
+    }
 }
 
 dataHandling2(input);
