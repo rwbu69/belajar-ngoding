@@ -8,7 +8,7 @@ function friend(friends) {
     }else{
         null;
     }
-   
+        
     }
     console.log(friendss)
   }
